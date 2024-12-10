@@ -1,6 +1,20 @@
 import streamlit as st
+#set the title of the web page
 st.write("Hello, World!")
 
-st.title("Title")
+#set a header
 st.header("Header")
+#set a subheader
 st.subheader("Sub-header")
+
+#text input for name
+name=st.text_input("enter your name:")
+ #dropdown menu for selecting an option
+options=["option1","option2","option3"]
+selected_option=st.selectbox("choose an option:", options)
+#slider for selecting a value 
+
+#sumbit button 
+if st.button("submit"):
+    st.write(f"name:{name}")
+    st.write(f"secected options:{selected_option}")
