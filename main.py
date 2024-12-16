@@ -33,7 +33,7 @@ if st.checkbox("cooking"):
         hobbies.append("cooking")
 
 #Date pciker for selecting a birthdate
-birthdate=st.date_input("Select your birthdate:",datetime(200,1,1))
+birthdate=st.date_input("Select your birthdate:",datetime(2000,1,1))
 #sumbit button 
 if st.button("submit"):
     age=calcuate_age(birthdate)
