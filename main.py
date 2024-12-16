@@ -18,7 +18,7 @@ slider_vaule=st.slider('select a vaule',1,100,50)
 if st.button("submit"):
     st.write(f"name:{name}")
     st.write(f"secected options:{selected_option}")
-    st.wrtie(f"Slider vaule:{slider_vaule}")
+    st.write(f"Slider vaule:{slider_vaule}")
 #additional information 
     st.subheader("summary")
     st.write("fill out the form above and click the submit button")
