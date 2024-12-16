@@ -13,8 +13,13 @@ name=st.text_input("enter your name:")
 options=["option1","option2","option3"]
 selected_option=st.selectbox("choose an option:", options)
 #slider for selecting a value 
-
+slider_vaule=st.slider('select a vaule',1,100,50)
 #sumbit button 
 if st.button("submit"):
     st.write(f"name:{name}")
     st.write(f"secected options:{selected_option}")
+    st.wrtie(f"Slider vaule:{slider_vaule}")
+#additional information 
+    st.subheader("summary")
+    st.write("fill out the form above and click the submit button")
+#footer
