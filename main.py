@@ -29,7 +29,7 @@ if st.checkbox("Reading"):
     hobbies.append("reading")
 if st.checkbox('traveling'):
     hobbies.append("Traveling")
-    if st.checkbox("cooking"):
+if st.checkbox("cooking"):
         hobbies.append("cooking")
 
 #Date pciker for selecting a birthdate
